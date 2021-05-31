@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Choinex</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<script src="https://kit.fontawesome.com/06f7f8d605.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<body onload="Startup(1)">
+    <div id="wrapper">
+        <div id="header">
+            <a id="logo" href="index.html"></a>
+            <div id="title">
+                <h1 class="redselect">Choinex</h1>
+            </div>
+            
+            <div id="nav">
+                <a class="redselect" href="">Dekoracje</a>
+                <a class="redselect" href="">Porady i artykuły</a>
+                <a class="redselect" href="">Dla hurtowników</a>
+                <a class="redselect" href="contact.html">Kontakt</a>
+            </div>
+        </div>
+        <div id="slider" class="section">
+            <button class="sliderbutton fas fa-arrow-left" onclick="Change(1)"></button>
+            <!--<div id="slidecon">-->
+                <img id="slide" src="Graphics/ceny.png">
+            <!--</div>-->
+            <button class="sliderbutton fas fa-arrow-right" onclick="Change(-1)"></button>
+        </div>
+        <div id="content" class="section">
+            <div id="con">
+                <div class="conel" id="con1">
+                    <div id="pi1"class="productimgdiv">
+                        <!--<img class="productimg" src="https://www.sadowniczy.pl/pol_pl_Swierk-klujacy-Glauca-Swierk-srebrny-25143_2.jpg" alt="product 1 image">-->
+                        <!--<div id="pi1"></div>-->
+                    </div>
+                    <div class="producttxt">
+                        <p class="redselect">Świerk srebrny to od lat jedno z najpopularniejszych drzewek bożonarodzeniowych. Igliwie ma wyraźny, niebieski odcień, Ma bardzo mocne gałęzie, które wytrzymają najcięższe ozdoby.</p>
+                        <a href=""><img class="arrow" src="Graphics/arrow.png"></a>
+                    </div>
+                </div>
+                <div class="conel" id="con2">
+                    <div id="pi2"class="productimgdiv">
+                        <!--<img class="productimg" alt="product 2 image">-->
+                    </div>
+                    <div class="producttxt">
+                        <p class="redselect">Sosna pospolita charakteryzuje się stożkowatym przekrojem. Należy do często wybieranych choinek, ze względu na rzadkie jasnozielone igły, które długo utrzymują się na bardzo sztywnych gałązkach.</p>
+                        <a href=""><img class="arrow" src="Graphics/arrow.png"></a>
+                    </div>
+                </div>
+                <div class="conel" id="con3">
+                    <div id="pi3"class="productimgdiv">
+                        <!--<img class="productimg" alt="product 3 image">-->
+                    </div>
+                    <div class="producttxt">
+                        <p class="redselect">Świerk pospolity to jedyny gatunek świerka występujący naturalnie w Polsce. Gałązki tego gatunku są cienkie a igliwie bardzo kłujące, natomiast unoszący się zapach jest bardzo przyjemny i świąteczny.</p>
+                        <a href=""><img class="arrow" src="Graphics/arrow.png"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="ads">
+                <div id="ad2" class="ad"><p class="greenselect">Tu miała być twoja ulubiona reklama</p></div>
+                <div id="ad1" class="ad"><p class="greenselect">Tu miała być twoja ulubiona reklama</p></div>
+            </div>
+        </div>
+        <div id="footer" class="section">
+            <div id="footerup">
+                <div id="contact">
+                    <h2 class="greenselect">Kontakt</h2>
+                    <p class="greenselect">Telefon: 801 111 111</p>
+                    <p class="greenselect">Adres email: <a class="greenselect" href="mailto:loremipsum@dolorsit.amet" target="_blank">loremipsum@dolorsit.amet</a></p>
+                </div>
+                <div id="address">
+                    <div id="atxt">
+                        <h2 class="greenselect">Adres:</h2>
+                        <p class="greenselect">ul. Monte Cassino 31,<br>Kraków</p>
+                    </div>
+                    <div id="aif">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1811.7038456322068!2d19.92342587768861!3d50.04628077613195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b7a5a0e622b%3A0xd5d25c4b488e7d88!2zVGVjaG5pa3VtIMWBxIVjem5vxZtjaSBOciAxNCB3IFpTIMWBxIVjem5vxZtjaSB3IEtyYWtvd2ll!5e0!3m2!1spl!2spl!4v1622361347069!5m2!1spl!2spl" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div id="documents">
+                    <h2 class="greenselect">Ważne dokumenty</h2>
+                    <a href="" class="greenselect">Polityka prywatności</a>
+                    <a href="" class="greenselect">Klauzula informacyjna</a>
+                </div>
+            </div>
+            <div id="footerbottom">
+                <p class="greenselect">&copy Designed and created by Franciszek Niwicki, 2021</p>
+                <p class="greenselect credit">logo: <a class="greenselect" href="https://www.flaticon.com/authors/roundicons" target="_blank">https://www.flaticon.com/authors/roundicons</a></p>
+                <p class="greenselect credit">icons: <a class="greenselect" href="https://www.freepik.com">https://www.freepik.com</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
